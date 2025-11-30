@@ -35,7 +35,7 @@ Other tools are **specialized knives** — good for one task.
 | Boofuzz | ❌ No | ✅ Basic | ❌ No | ❌ No | ✅ Limited |
 | Ghidra | ✅ Advanced | ❌ No | ❌ No | ❌ No | ❌ No |
 | Burp Suite | ❌ No | ✅ Web-only | ❌ No | ❌ No | ✅ HTTP-only |
-| **Our Fuzzer** | **✅ ** | **✅ All Protocols** | **✅ AI-Powered** | **✅ Automatic** | **✅ RFC-Aware** |
+| **Haroon Fuzz** | **✅ ** | **✅ All Protocols** | **✅ AI-Powered** | **✅ Automatic** | **✅ RFC-Aware** |
 
 ---
 
@@ -176,18 +176,18 @@ check_memory_corruption(fuzz_pid, &coverage);
 
 * AFL++: 2–48 hours
 * Boofuzz: 1–24 hours
-* **Our Fuzzer: 5–30 minutes**
+* **Haroon Fuzz: 5–30 minutes**
 
 ### Bug Quality
 
 * AFL++: 5% exploitable
 * Boofuzz: 2% exploitable
-* **Our Fuzzer: 25% exploitable**
+* **Haroon Fuzz: 25% exploitable**
 
 ### Automation Level
 
 * Others: Manual analysis
-* **Our Fuzzer: Full automation → exploit**
+* **Haroon Fuzz: Full automation → exploit**
 
 ---
 
