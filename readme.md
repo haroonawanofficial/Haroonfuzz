@@ -6,14 +6,14 @@
 
 ---
 
-## 🔥 What Makes This Different?
+## What Makes This Different?
 
 Other tools are **specialized knives** — good for one task.  
 **Haroon fuzz is a fully automated, weaponized vulnerability-research factory** that dominates every layer of analysis.
 
 ---
 
-## 📊 Quantitative Advantages
+## Advantage
 
 | Metric | AFL++ | Boofuzz | Ghidra | Burp | **Haroon Fuzz** |
 |-------|-------|---------|--------|------|----------------|
@@ -35,11 +35,11 @@ Other tools are **specialized knives** — good for one task.
 | Boofuzz | ❌ No | ✅ Basic | ❌ No | ❌ No | ✅ Limited |
 | Ghidra | ✅ Advanced | ❌ No | ❌ No | ❌ No | ❌ No |
 | Burp Suite | ❌ No | ✅ Web-only | ❌ No | ❌ No | ✅ HTTP-only |
-| **Our Fuzzer** | **✅ Tier 1** | **✅ All Protocols** | **✅ AI-Powered** | **✅ Automatic** | **✅ RFC-Aware** |
+| **Our Fuzzer** | **✅ ** | **✅ All Protocols** | **✅ AI-Powered** | **✅ Automatic** | **✅ RFC-Aware** |
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Installation
 ```bash
@@ -110,16 +110,16 @@ check_memory_corruption(fuzz_pid, &coverage);
 
 ---
 
-# 🎪 Core Features
+# Core Features
 
-## 🧠 AI-Powered Intelligence
+## AI-Powered Intelligence
 
 * Vulnerability prediction
 * Smart mutation targeting
 * Novel pattern detection
 * Confidence-scored findings
 
-## 🔍 Multi-Layer Analysis
+## Multi-Layer Analysis
 
 ```c
 // Simultaneous analysis at all levels
@@ -129,7 +129,7 @@ check_memory_corruption(fuzz_pid, &coverage);
 - System call monitoring
 ```
 
-## ⚡ 25+ Mutation Types
+## 25+ Mutation Types
 
 * Bit-level mutations
 * Integer boundary attacks
@@ -156,7 +156,7 @@ check_memory_corruption(fuzz_pid, &coverage);
 
 ---
 
-# 📊 Advanced Database Storage
+# Advanced Database Storage
 
 ```sql
 -- 5 specialized tables for complete research management
@@ -170,7 +170,7 @@ check_memory_corruption(fuzz_pid, &coverage);
 
 ---
 
-# 🚀 Real-World Performance
+# Real-World Performance
 
 ### Time to First Bug
 
@@ -191,11 +191,11 @@ check_memory_corruption(fuzz_pid, &coverage);
 
 ---
 
-# 🏗️ Architecture
+# Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    Haroon fuzz TIER 1                   │
+│                    Haroon fuzz                    │
 ├─────────────────────────────────────────────────────────────┤
 │  AI Engine        │  Protocol Engine   │  Binary Engine     │
 │  - Vulnerability  │  - Multi-protocol  │  - Live Analysis   │
@@ -216,7 +216,7 @@ check_memory_corruption(fuzz_pid, &coverage);
 
 ---
 
-# 🔧 Technical Implementation
+# Technical Implementation
 
 ## Core Structures
 
@@ -256,7 +256,7 @@ typedef struct {
 
 ---
 
-# 📡 Protocol Support
+# Protocol Support
 
 * HTTP/HTTPS (RFC 2616/7230 + violations)
 * TCP/UDP (raw, confusion attacks)
@@ -271,7 +271,7 @@ typedef struct {
 # 📈 Output Example
 
 ```bash
-[ULTIMATE-FUZZER] ===== TIER 1 FUZZING SESSION STARTED =====
+[Haroon Fuzzer] =====  FUZZING SESSION STARTED =====
 [TARGET] 127.0.0.1:80 | Protocol: http | Binary: /usr/sbin/nginx
 
 [!] ULTIMATE CRASH #1
@@ -285,7 +285,7 @@ typedef struct {
 
 ---
 
-# 🎯 Use Cases
+# Use Cases
 
 ### Security Researchers
 
@@ -321,7 +321,7 @@ typedef struct {
 ---
 
 
-# 🤝 Contributing
+# Contributing
 
 Welcome contributions:
 
@@ -333,18 +333,8 @@ Welcome contributions:
 
 ---
 
-# 📜 License
+# License
 
 Licensed under the **MIT**.
 
 ---
-
-# 🏆 The Bottom Line
-
-While other tools solve **pieces** of the vulnerability research puzzle,
-**this fuzzer delivers the complete picture — AI-enhanced, automated, and fully weaponized.**
-
-**This isn’t just another fuzzer —
-it’s the future of automated vulnerability research.**
-
-```
