@@ -320,15 +320,10 @@ typedef struct {
 
 ---
 
-# ⚠️ Legal & Ethical Usage
-
-For **authorized** testing, research, and responsible disclosure only.
-
----
 
 # 🤝 Contributing
 
-We welcome contributions:
+Welcome contributions:
 
 * New protocols
 * Mutation engines
@@ -340,8 +335,7 @@ We welcome contributions:
 
 # 📜 License
 
-Licensed under the **Cybersecurity Research License**.
-See `LICENSE`.
+Licensed under the **MIT**.
 
 ---
 
@@ -353,19 +347,4 @@ While other tools solve **pieces** of the vulnerability research puzzle,
 **This isn’t just another fuzzer —
 it’s the future of automated vulnerability research.**
 
-```
-
----
-
-If you want, I can also generate:
-
-✅ `README.md` file  
-✅ `LICENSE` template  
-✅ GitHub repo structure  
-✅ ASCII logo  
-✅ Banner images  
-✅ Project badges  
-✅ Full codebase skeleton
-
-Just tell me — I’ll format everything perfectly for GitHub.
 ```
