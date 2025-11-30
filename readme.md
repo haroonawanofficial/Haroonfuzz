@@ -27,7 +27,7 @@ Other tools are **specialized knives** — good for one task.
 
 ---
 
-## 🎯 Capabilities Comparison
+## Comparison
 
 | Tool | Binary Analysis | Network Fuzzing | AI Guidance | Exploit Generation | Protocol Awareness |
 |------|----------------|-----------------|-------------|--------------------|--------------------|
@@ -66,7 +66,7 @@ gcc -o haroonfuzz haroonfuzz.c -lsqlite3 -lcapstone -lz -lcrypto -lpthread -O3 -
 
 ---
 
-# 🛠️ What This Code Actually Does
+# What This Code Actually Does
 
 ## 1. Advanced Binary Analysis (Beyond Ghidra)
 
